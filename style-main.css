@@ -6,7 +6,7 @@
     box-sizing: border-box;
     list-style-type: none;
     font-family: "Poppins", sans-serif;
-
+    text-decoration: none;
 }
 
 body {
@@ -24,6 +24,9 @@ body {
     background: #FAF4F2;
 }
 
+header{
+    display: none;
+}
 /*------------------------------------------main-------------------------------*/
 main {
     width: 100%;
@@ -33,7 +36,9 @@ main {
     gap: 167px;
     margin: 112px auto 0 auto;
 }
-
+main .main__content h2{
+    display: none;
+}
 main h1 {
     width: 475px;
     color: #222;
@@ -95,7 +100,16 @@ main .buttons button:nth-of-type(2) {
     background: #FF7315;
     padding: 62px 76px 63px 32px;
 }
-
+.goals-section .goals-section__content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.goals-section img{
+    width: 430px;
+    height: 329px;
+}
 .goals-section .goals-section__content p {
     color: #F9F9F9;
     font-style: normal;
@@ -134,7 +148,6 @@ main .buttons button:nth-of-type(2) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 150px;
 }
 
 .hire-me h2 {
@@ -245,7 +258,7 @@ width: 100%;
     align-items: center;
     justify-content: center;
     gap: 111px;
-    padding: 48px 150px 185px 150px;
+    padding: 48px 0 185px 0;
 }
 .feedback .feedback__content{
     display: flex;
@@ -271,4 +284,193 @@ width: 100%;
     font-weight: 400;
     text-align: center;
     padding: 24px 55px 47px 55px;
+}
+/*------------------------------------------price-section---------------------------------------------------*/
+.price-plans{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 64px;
+}
+.price-plans h2{
+    color:#222;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 123.6%; /* 59.328px */
+    text-transform: capitalize;
+}
+.price-plans__cards{
+    display: flex;
+    gap: 67px;
+}
+.price-plans .price-plans__cards .tariff-card{
+    width:335px ;
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0 20px 40px 0 rgba(255, 115, 21, 0.10);
+
+}
+.price-plans .price-plans__cards .tariff-card .tariff-name{
+    height: 66px;
+    border-radius: 15px 15px 0 0;
+    background: #FF9B70;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 36px;
+}
+.price-plans .price-plans__cards .tariff-card .tariff-name h3 {
+    color: #F9F9F9;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 123.6%; /* 29.664px */
+    text-transform: capitalize;
+}
+.price-plans .price-plans__cards .tariff-card .tariff-price{
+    color:#2B2B2B;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 123.6%; /* 39.552px */
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 29px;
+}
+.price-plans .price-plans__cards .tariff-card .tariff-price span{
+    color:#2B2B2B;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    text-transform: capitalize;
+    margin-left: 14px;
+}
+.price-plans .price-plans__cards .tariff-card .services{
+    margin: 0 0 24px 48px;
+}
+.price-plans .price-plans__cards .tariff-card .services li{
+    display: flex;
+    align-items: center;
+    color:#222;
+    gap: 16px;
+    margin-top: 16px;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    text-transform: capitalize;
+}
+.price-plans .price-plans__cards .tariff-card .services .icon-close{
+    color: #a7a7a7;
+}
+.price-plans .price-plans__cards .tariff-card .services .icon{
+    width: 25px;
+    height: 24px;
+}
+/*----------------------------------email-me-section-----------------------------------*/
+.email-me{
+    width: 1110px;
+    height: 224px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px 50px 75px;
+    border-radius: 25px;
+    background:#FF7315;
+}
+.email-me h4{
+    width: 343px;
+    color:#F9F9F9;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 62px; /* 172.222% */
+}
+.email-me button{
+    color:#222;
+    font-size: 24px;
+    font-weight: 600;
+    width: 259px;
+    height: 70px;
+    border-radius: 10px;
+    background:#F9F9F9;
+    box-shadow: 0 0.927px 1.924px 0 rgba(0, 0, 0, 0.01);
+    border: none;
+}
+/*-----------------------------------------blog-section----------------------------*/
+.blog h2{
+    color: #222;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px; /* 129.167% */
+}
+.blog .blog__cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 48px;
+}
+.blog .blog__cards .blog__card{
+    height: 364px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 15px 57px 15px;
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.07);
+}
+.blog .blog__cards .blog__card a{
+    display: none;
+}
+.blog .blog__cards .blog__card img{
+    width: 240px;
+    height: 166px;
+    margin-bottom: 24px;
+    border-radius: 15px;
+}
+.blog .blog__cards .blog__card h5{
+    color:#222;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 123.6%; /* 19.776px */
+    text-transform: capitalize;
+}
+.blog .blog__cards .blog__card p{
+    width: 240px;
+    height: 70px;
+    padding-top: 12px;
+    color: rgba(34, 34, 34, 0.50);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px; /* 200% */
+    text-transform: capitalize;
+}
+/*-------------------------------footer------------------------------------------------------*/
+footer{
+    width: 100%;
+    height: 170px;
+    background: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer .footer-w375{
+    display: none;
+}
+footer p{
+    color:#222;
+    font-size: 18px;
+    font-weight: 500;
+}
+footer p span{
+    display: none;
 }
