@@ -24,9 +24,10 @@ body {
     background: #FAF4F2;
 }
 
-header{
+header {
     display: none;
 }
+
 /*------------------------------------------main-------------------------------*/
 main {
     width: 100%;
@@ -36,11 +37,13 @@ main {
     gap: 167px;
     margin: 112px auto 0 auto;
 }
-main .main__content h2{
+
+main .main__content h2 {
     display: none;
 }
+
 main h1 {
-    width: 475px;
+    width: 474px;
     color: #222;
     font-size: 40px;
     font-weight: 600;
@@ -86,6 +89,7 @@ main .buttons button:nth-of-type(2) {
     color: rgba(34, 34, 34, 0.50);
     font-size: 18px;
     font-weight: 500;
+    background: #FAF4F2;
 }
 
 /*-------------------goals-section------------------------------*/
@@ -100,16 +104,19 @@ main .buttons button:nth-of-type(2) {
     background: #FF7315;
     padding: 62px 76px 63px 32px;
 }
-.goals-section .goals-section__content{
+
+.goals-section .goals-section__content {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
 }
-.goals-section img{
+
+.goals-section img {
     width: 430px;
     height: 329px;
 }
+
 .goals-section .goals-section__content p {
     color: #F9F9F9;
     font-style: normal;
@@ -177,39 +184,39 @@ main .buttons button:nth-of-type(2) {
     background-color: rgba(34, 34, 34, 0.10);
     position: relative;
 }
-.hire-me__card .icon-background .icon-communicative{
+
+.hire-me .hire-me__card .icon-background .icon-position {
     position: absolute;
     z-index: 2;
+}
+
+.hire-me__card .icon-background .icon-communicative {
     top: 22px;
     right: 23px;
     bottom: 24px;
     left: 24px;
 }
-.hire-me__card .icon-background .icon-professional{
-        position: absolute;
-        z-index: 2;
-        top: 24px;
-        right: 26px;
-        bottom: 25px;
-        left: 27px;
-    }
-.hire-me__card .icon-background .icon-collaborative{
-        position: absolute;
-        z-index: 2;
-        top: 29px;
-        right: 15px;
-        bottom: 28px;
-        left: 14px;
-    }
-.hire-me__card .icon-background .icon-favourite{
-        position: absolute;
-        z-index: 2;
-        top: 25px;
-        right: 24px;
-        bottom: 25px;
-        left: 24px;
-    }
 
+.hire-me__card .icon-background .icon-professional {
+    top: 24px;
+    right: 26px;
+    bottom: 25px;
+    left: 27px;
+}
+
+.hire-me__card .icon-background .icon-collaborative {
+    top: 29px;
+    right: 15px;
+    bottom: 28px;
+    left: 14px;
+}
+
+.hire-me__card .icon-background .icon-favourite {
+    top: 25px;
+    right: 24px;
+    bottom: 25px;
+    left: 24px;
+}
 
 .hire-me__card h3 {
     color: #222;
@@ -228,12 +235,14 @@ main .buttons button:nth-of-type(2) {
     font-weight: 400;
     line-height: 30px; /* 166.667% */
 }
+
 /*----------------------------------portfolio-section--------------------------------*/
-.portfolio{
-width: 100%;
-    padding-left:150px;
+.portfolio {
+    width: 100%;
+    padding-left: 150px;
 }
-.portfolio h2{
+
+.portfolio h2 {
     color: #222;
     font-size: 48px;
     font-weight: 600;
@@ -242,15 +251,17 @@ width: 100%;
     text-align: left;
     margin-bottom: 64px;
 }
-.portfolio .portfolio-gallery{
+
+.portfolio .portfolio-gallery {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(3,310px);
-    grid-template-rows: repeat(2,300px);
+    grid-template-columns: repeat(3, 310px);
+    grid-template-rows: repeat(2, 300px);
     grid-gap: 25px;
 }
+
 /*------------------------------------feedback-section------------------------------------*/
-.feedback{
+.feedback {
     width: 100%;
     background: #FF7315;
     display: flex;
@@ -260,13 +271,15 @@ width: 100%;
     gap: 111px;
     padding: 48px 0 185px 0;
 }
-.feedback .feedback__content{
+
+.feedback .feedback__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 82px;
 }
-.feedback h2{
+
+.feedback h2 {
     width: 609px;
     color: #F9F9F9;
     text-align: center;
@@ -274,7 +287,8 @@ width: 100%;
     font-weight: 600;
     line-height: 60px; /* 125% */
 }
-.feedback p{
+
+.feedback p {
     width: 529px;
     height: 179px;
     border-radius: 30px;
@@ -285,33 +299,38 @@ width: 100%;
     text-align: center;
     padding: 24px 55px 47px 55px;
 }
+
 /*------------------------------------------price-section---------------------------------------------------*/
-.price-plans{
-display: flex;
+.price-plans {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 64px;
 }
-.price-plans h2{
-    color:#222;
+
+.price-plans h2 {
+    color: #222;
     font-size: 48px;
     font-weight: 600;
     line-height: 123.6%; /* 59.328px */
     text-transform: capitalize;
 }
-.price-plans__cards{
+
+.price-plans__cards {
     display: flex;
     gap: 67px;
 }
-.price-plans .price-plans__cards .tariff-card{
-    width:335px ;
+
+.price-plans .price-plans__cards .tariff-card {
+    width: 335px;
     border-radius: 15px;
     background: #F9F9F9;
     box-shadow: 0 20px 40px 0 rgba(255, 115, 21, 0.10);
 
 }
-.price-plans .price-plans__cards .tariff-card .tariff-name{
+
+.price-plans .price-plans__cards .tariff-card .tariff-name {
     height: 66px;
     border-radius: 15px 15px 0 0;
     background: #FF9B70;
@@ -321,6 +340,7 @@ display: flex;
     align-items: center;
     margin-bottom: 36px;
 }
+
 .price-plans .price-plans__cards .tariff-card .tariff-name h3 {
     color: #F9F9F9;
     font-size: 24px;
@@ -328,8 +348,9 @@ display: flex;
     line-height: 123.6%; /* 29.664px */
     text-transform: capitalize;
 }
-.price-plans .price-plans__cards .tariff-card .tariff-price{
-    color:#2B2B2B;
+
+.price-plans .price-plans__cards .tariff-card .tariff-price {
+    color: #2B2B2B;
     font-size: 32px;
     font-weight: 700;
     line-height: 123.6%; /* 39.552px */
@@ -337,8 +358,9 @@ display: flex;
     text-align: center;
     margin-bottom: 29px;
 }
-.price-plans .price-plans__cards .tariff-card .tariff-price span{
-    color:#2B2B2B;
+
+.price-plans .price-plans__cards .tariff-card .tariff-price span {
+    color: #2B2B2B;
     font-kerning: none;
     font-feature-settings: 'calt' off;
     font-size: 15px;
@@ -347,13 +369,15 @@ display: flex;
     text-transform: capitalize;
     margin-left: 14px;
 }
-.price-plans .price-plans__cards .tariff-card .services{
+
+.price-plans .price-plans__cards .tariff-card .services {
     margin: 0 0 24px 48px;
 }
-.price-plans .price-plans__cards .tariff-card .services li{
+
+.price-plans .price-plans__cards .tariff-card .services li {
     display: flex;
     align-items: center;
-    color:#222;
+    color: #222;
     gap: 16px;
     margin-top: 16px;
     font-kerning: none;
@@ -363,15 +387,18 @@ display: flex;
     line-height: 24px; /* 171.429% */
     text-transform: capitalize;
 }
-.price-plans .price-plans__cards .tariff-card .services .icon-close{
+
+.price-plans .price-plans__cards .tariff-card .services .icon-close {
     color: #a7a7a7;
 }
-.price-plans .price-plans__cards .tariff-card .services .icon{
+
+.price-plans .price-plans__cards .tariff-card .services .icon {
     width: 25px;
     height: 24px;
 }
+
 /*----------------------------------email-me-section-----------------------------------*/
-.email-me{
+.email-me {
     width: 1110px;
     height: 224px;
     display: flex;
@@ -379,41 +406,46 @@ display: flex;
     align-items: center;
     padding: 50px 100px 50px 75px;
     border-radius: 25px;
-    background:#FF7315;
+    background: #FF7315;
 }
-.email-me h4{
+
+.email-me h4 {
     width: 343px;
-    color:#F9F9F9;
+    color: #F9F9F9;
     font-size: 36px;
     font-weight: 600;
     line-height: 62px; /* 172.222% */
 }
-.email-me button{
-    color:#222;
+
+.email-me button {
+    color: #222;
     font-size: 24px;
     font-weight: 600;
     width: 259px;
     height: 70px;
     border-radius: 10px;
-    background:#F9F9F9;
+    background: #F9F9F9;
     box-shadow: 0 0.927px 1.924px 0 rgba(0, 0, 0, 0.01);
     border: none;
 }
+
 /*-----------------------------------------blog-section----------------------------*/
-.blog h2{
+.blog h2 {
     color: #222;
     font-size: 48px;
     font-weight: 600;
     line-height: 62px; /* 129.167% */
 }
-.blog .blog__cards{
+
+.blog .blog__cards {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     margin-top: 48px;
 }
-.blog .blog__cards .blog__card{
+
+.blog .blog__cards .blog__card {
     height: 364px;
     width: 270px;
     display: flex;
@@ -425,23 +457,27 @@ display: flex;
     background: #F9F9F9;
     box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.07);
 }
-.blog .blog__cards .blog__card a{
+
+.blog .blog__cards .blog__card a {
     display: none;
 }
-.blog .blog__cards .blog__card img{
+
+.blog .blog__cards .blog__card img {
     width: 240px;
     height: 166px;
     margin-bottom: 24px;
     border-radius: 15px;
 }
-.blog .blog__cards .blog__card h5{
-    color:#222;
+
+.blog .blog__cards .blog__card h5 {
+    color: #222;
     font-size: 16px;
     font-weight: 500;
     line-height: 123.6%; /* 19.776px */
     text-transform: capitalize;
 }
-.blog .blog__cards .blog__card p{
+
+.blog .blog__cards .blog__card p {
     width: 240px;
     height: 70px;
     padding-top: 12px;
@@ -453,8 +489,9 @@ display: flex;
     line-height: 24px; /* 200% */
     text-transform: capitalize;
 }
+
 /*-------------------------------footer------------------------------------------------------*/
-footer{
+footer {
     width: 100%;
     height: 170px;
     background: #F1F1F1;
@@ -463,14 +500,17 @@ footer{
     align-items: center;
     flex-direction: column;
 }
-footer .footer-w375{
+
+footer .footer-w375 {
     display: none;
 }
-footer p{
-    color:#222;
+
+footer p {
+    color: #222;
     font-size: 18px;
     font-weight: 500;
 }
-footer p span{
+
+footer p span {
     display: none;
 }

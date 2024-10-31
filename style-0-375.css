@@ -1,4 +1,4 @@
-@media screen and (min-width: 0) and (max-width: 400px) {
+@media screen and (min-width: 0) and (max-width: 375px) {
     .w-375 {
         display: flex;
         align-items: center;
@@ -22,11 +22,13 @@
         align-items: center;
         background: #FF7315;
     }
+
     header h2 {
         color: #F9F9F9;
         font-size: 18px;
         font-weight: 500;
     }
+
     /*---------------------------------main--------------------------------------------*/
     main {
         justify-content: space-between;
@@ -254,20 +256,23 @@
     .blog .blog__cards .blog__card:nth-of-type(4) {
         display: none;
     }
-/*------------------------------------------footer---------------------------------------------*/
-footer{
-    padding: 48px 0 36px 0;
-    height: 302px;
-    gap: 89px;
-}
-    footer .footer-w375{
+
+    /*------------------------------------------footer---------------------------------------------*/
+    footer {
+        padding: 48px 0 36px 0;
+        height: 302px;
+        gap: 89px;
+    }
+
+    footer .footer-w375 {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 64px;
     }
-    footer .footer-w375 a{
+
+    footer .footer-w375 a {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -277,28 +282,31 @@ footer{
         font-weight: 400;
         line-height: 123.6%; /* 22.248px */
     }
-    footer .footer-w375 a svg{
+
+    footer .footer-w375 a svg {
         width: 24px;
         height: 22px;
         stroke-width: 2px;
         stroke: rgba(34, 34, 34, 0.50);
     }
-    footer .footer-w375 span{
+
+    footer .footer-w375 span {
         display: flex;
         gap: 24px;
     }
-    footer .footer-w375 span a{
+
+    footer .footer-w375 span a {
         width: 16px;
         height: 16px;
         flex-shrink: 0;
     }
-    footer p span{
+
+    footer p span {
         display: inline;
-        color:#222;
+        color: #222;
         font-size: 18px;
         font-weight: 500;
     }
-
 
 
 }
